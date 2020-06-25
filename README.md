@@ -1,4 +1,4 @@
-# A report for NERC- COVID-19 Hackathons (Hackathon 1: Air Quality) challenge
+# A report for NERC- COVID-19 Hackathons challenge ((Hackathon 1: Air Quality)
 This repository contains a report and the associated datasets created for "Hackathon 1: Air Quality" organised by the Natural Enviornment Research Council (NERC) and Cranfield University.
 
 ## Table of contents:
