@@ -11,9 +11,9 @@ This repository contains a report and the associated datasets created for "Hacka
 ## Overview
 This report has been prepared in response to the Covid-19 Hackathon challenge organised by the Natural Environment Research Council (NERC) and Cranfield University.
 
-This hackthon report provides an overview of the data analysis that has been carried out to explore the relationship between air quality and the severity of COVID-19 infection. 
+This hackthon report provides an overview of the data analysis that has been carried out to explore the relationship between air quality and the severity of Covid-19 infection. 
 
-The datasets used in this study, have been gathered from multiple data sources, including [aqicn.org](https://aqicn.org). The visualisations presented in this report have been developed using Python programming language and Jupyter Notebook environment.
+The datasets used in this study, have been gathered from multiple data sources, including [aqicn.org](https://aqicn.org). The visualisations presented in this report have been developed using Python programming language in a Jupyter Notebook environment.
 
 Key steps followed to prepare this report are:
 
@@ -34,21 +34,21 @@ This repository contains the following files. A short description of each file i
 
 + [code/H1-Covid-19-and-Air-Quality.ipynb](https://github.com/shbitservices/NERC-Hackathon-1-Air-Quality/tree/master/code/H1-Covid-19-and-Air-Quality.ipynb) - This is the main report. This file is a jupyter notebook, which contains the detailed data analysis results and the associated python code. 
 
-+ [code/H1-Covid-19-and-Air-Quality.html](https://github.com/shbitservices/NERC-Hackathon-1-Air-Quality/tree/master/code/Air-Quality-V2.html) - This file is an HTML version of the above jupyter notebook. For better readability, please use this file. 
++ [code/H1-Covid-19-and-Air-Quality.html](https://github.com/shbitservices/NERC-Hackathon-1-Air-Quality/tree/master/code/H1-Covid-19-and-Air-Quality.html) - This file is an HTML version of the above jupyter notebook. For better readability, please use this file. 
 
 + [data/airqua_data_till_may.csv](https://github.com/shbitservices/NERC-Hackathon-1-Air-Quality/tree/master/data/airqua_data_till_may.csv) - This file has been downloaded from AQICN website. This file contains median and standard deviation of each air quality parameters recorded everyday for different cities. 
 
-+ [data/covid_data_till_may.csv](https://github.com/shbitservices/NERC-Hackathon-1-Air-Quality/tree/master/data/covid_data_till_may.csv) - This file contains the daily total number of COVID-19 infected cases at a local authority area level in the UK.
++ [data/covid_data_till_may.csv](https://github.com/shbitservices/NERC-Hackathon-1-Air-Quality/tree/master/data/covid_data_till_may.csv) - This file contains the daily total number of Covid-19 infected cases at a local authority area level in the UK.
 
 + [data/df_aq_cd_may_data.csv](https://github.com/shbitservices/NERC-Hackathon-1-Air-Quality/tree/master/data/df_aq_cd_may_data.csv) - This file has been created by joining the above air quality and Covid-19 input files.
 
 + [data/df_aq_cd_may_data_sorted_with_metric.csv](https://github.com/shbitservices/NERC-Hackathon-1-Air-Quality/tree/master/data/df_aq_cd_may_data_sorted_with_metric.csv) - This file has been created from df_aq_cd_may_data.csv.  Rows with blank values have also been dropped from this combined file and a new set of metrics has been added to this file. This file has been created from an intermediate file df_aq_cd_may_data.csv. 
 
-+ [data/aq_day1_joined_cd_day7_with_metrics.csv](https://github.com/shbitservices/NERC-Hackathon-1-Air-Quality/tree/master/data/aq_day1_joined_cd_day7_with_metrics.csv) - This file has been created for iteration 2. Please refer to section 4.2.1 for details on this dataset. 
++ [data/aq_day1_joined_cd_day7_with_metrics.csv](https://github.com/shbitservices/NERC-Hackathon-1-Air-Quality/tree/master/data/aq_day1_joined_cd_day7_with_metrics.csv) - This file has been created for iteration 2. Please refer to section 4.2.1 in the notebook for details of this dataset. 
 
 ## How to run this Jupyter notebook
 
-The notebook (name of the notebook) can be run in a Jupyter notebook environment.  The following python package versions are required to run the notebook. 
+This notebook can be run in a Jupyter notebook environment.  The following python package versions are required to run the notebook. 
 
 + Anaconda Navigator        1.9.7
 + Python                    3.7.3
