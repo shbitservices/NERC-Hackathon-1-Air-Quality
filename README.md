@@ -24,7 +24,7 @@ Key steps followed to prepare this report are:
 5. Summerise the key findings 
 ![alt text][logo]
 
-[logo]: analysis_workflow_h1.JPG "workflow"
+[logo]: image/analysis_workflow_h1.JPG "workflow"
 
 A detailed description of each step can be found in this [jupyter notebook](https://github.com/shbitservices/NERC-Hackathon-1-Air-Quality/tree/master/code/H1-Covid-19-and-Air-Quality.ipynb). This notebook is stored in the `code` sub-directory of this repository. The report has been prepared by running each of the cells in this notebook in a jupyter notebook environment spawned from Anaconda Navigator.  
 
