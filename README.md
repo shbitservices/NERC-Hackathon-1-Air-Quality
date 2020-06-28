@@ -5,7 +5,7 @@ This repository contains a report and the associated datasets created for "Hacka
 
 - [1.0 Overview](#overview)
 - [2.0 List of files in this repository](#List-of-files-in-this-repository)
-- [3.0 How to run the Jupyter notebook](#How-to-run-Jupyter-notebook)
+- [3.0 How to run this Jupyter notebook](#How-to-run-this-Jupyter-notebook)
 
 
 ## Overview
