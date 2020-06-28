@@ -13145,22 +13145,22 @@ div#notebook {
 <li><a href="#4.1.2-Add-new-Covid-19-metrics-in-the-combined-dataset">4.1.2 Add new Covid-19 metrics in the combined dataset</a></li>
 <li><a href="#4.1.3-Daily-variation-of-air-quality-and-Covid-19-metric">4.1.3 Daily variation of air quality and Covid 19 metric</a></li>
 <li><a href="#4.1.4-Correlation-between-NO2-and-Covid-19-metric">4.1.4 Correlation between NO2 and Covid 19 metric</a></li>
-<li><a href="#4.1.5-Correlation-between-all-air-quality-parameters-(X">4.1.5 Correlation between all air quality parameters (X) and Covid-19 metric</a>-and-Covid-19-metric)</li>
-<li><a href="#4.1.6-Correlation-coeffient-(r">4.1.6 Correlation coeffient (r) and model fitting</a>-and-model-fitting)</li>
+<li><a href="#4.1.5-Correlation-between-all-air-quality-parameters-and-Covid-19-metric">4.1.5 Correlation between all air quality parameters and Covid-19 metric</a></li>
+<li><a href="#4.1.6-Correlation-coefficient-and-model-fitting">4.1.6 Correlation coefficient and model fitting</a></li>
 <li><a href="#4.1.7-Conclusion-of-Iteration-1">4.1.7 Conclusion of Iteration 1</a></li>
 </ul>
 </li>
 <li><a href="#4.2-Iteration-2">4.2 Iteration 2</a><ul>
 <li><a href="#4.2.1-Join-air-quality-and-Covid-19-datasets-with-7-days-lag">4.2.1 Join air quality and Covid-19 datasets with 7 days lag</a></li>
 <li><a href="#4.2.2-Drop-blank-values-and-outliers-from-combined-dataset">4.2.2 Drop blank values and outliers from combined dataset</a></li>
-<li><a href="#4.2.3-Correlation-coeffient-(r">4.2.3 Correlation coeffient-(r) and model fitting</a>-and-model-fitting)</li>
-<li><a href="#4.2.4-Correlation-between-all-air-quality-parameters-(X">4.2.4 Correlation between all air quality parameters (X) and Covid-19 metric</a>-and-Covid-19-metric)</li>
+<li><a href="#4.2.3-Correlation-coefficient-and-model-fitting">4.2.3 Correlation coefficient and model fitting</a></li>
+<li><a href="#4.2.4-Correlation-between-all-air-quality-parameters-and-Covid-19-metric">4.2.4 Correlation between all air quality parameters and Covid-19 metric</a></li>
 <li><a href="#4.2.5-Conclusion-of-Iteration-2">4.2.5 Conclusion of Iteration 2</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#5.0-Summerise-the-key-findings">5.0 Summerise the key findings</a></li>
+<li><a href="#5.0-Summarise-the-key-findings">5.0 Summarise the key findings</a></li>
 </ul>
 <h2 id="1.0-Solution-Approach">1.0 Solution Approach<a class="anchor-link" href="#1.0-Solution-Approach">&#182;</a></h2><p>Air pollution can cause numerous health problems, especially in urban areas. Those who are affected by poor air quality, can develop serious respiratory problems such as asthma, chronic bronchitis, etc. COVID-19 also affects the upper and lower respiratory system. Therefore, people living in most polluted places may be exposed to a higher risk of catching the virus due to existing health problems.</p>
 <p>However, in order to establish a relationship between air quality and COVID-19 infection rate, a thorough analysis needs to be done to understand the parameters of air quality and the infection rate at different geographical areas.</p>
@@ -14728,7 +14728,7 @@ Figure 3 - Scatter plot for NO2 vs daily_growth_rt_by_popu_percent for all citie
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="4.1.5-Correlation-between-all-air-quality-parameters-(X)-and-Covid-19-metric">4.1.5 Correlation between all air quality parameters (X) and Covid-19 metric<a class="anchor-link" href="#4.1.5-Correlation-between-all-air-quality-parameters-(X)-and-Covid-19-metric">&#182;</a></h4><p>In this section, we have explored the relationship of all the air quality parameter with Covid-19 metric. Same joint plots have been used to visualise the data. The following changes have been incorporated in the dataset before plotting the data.</p>
+<h4 id="4.1.5-Correlation-between-all-air-quality-parameters-and-Covid-19-metric">4.1.5 Correlation between all air quality parameters and Covid-19 metric<a class="anchor-link" href="#4.1.5-Correlation-between-all-air-quality-parameters-and-Covid-19-metric">&#182;</a></h4><p>In this section, we have explored the relationship of all the air quality parameter with Covid-19 metric. Same joint plots have been used to visualise the data. The following changes have been incorporated in the dataset before plotting the data.</p>
 <ul>
 <li>Two cities (London and Louton) data have been excluded from the dataset due to boundary conditions (see below).</li>
 <li>Outliers excluded from the data for each air quality parameter to focus on the core mass of the data</li>
@@ -14946,7 +14946,7 @@ size of the dataste after excluding outliers (1144, 16)
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="4.1.6-Correlation-coeffient-(r)-and-model-fitting">4.1.6 Correlation coeffient (r) and model fitting<a class="anchor-link" href="#4.1.6-Correlation-coeffient-(r)-and-model-fitting">&#182;</a></h4><p>The jointplots in the previous section, show a weak realtionship in the data. In this section, we will carry out the following steps to explore further :</p>
+<h4 id="4.1.6-Correlation-coefficient-and-model-fitting">4.1.6 Correlation coefficient and model fitting<a class="anchor-link" href="#4.1.6-Correlation-coefficient-and-model-fitting">&#182;</a></h4><p>The jointplots in the previous section, show a weak realtionship in the data. In this section, we will carry out the following steps to explore further :</p>
 <ul>
 <li><strong>Step 1 -</strong>   Find out Pearson's correlation coefficients between air quality parameters (<code>'no2', 'o3', 'pm10', 'pm25', 'humidity' , 'temperature' ,'pressure'</code> ) and <code>daily_growth_rt_percent</code>. </li>
 </ul>
@@ -15079,7 +15079,7 @@ Mean absolute error: 7.54
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="4.1.7-Conclusion-of-Iteration-1">4.1.7 Conclusion of Iteration 1<a class="anchor-link" href="#4.1.7-Conclusion-of-Iteration-1">&#182;</a></h4><p>To summerise, in iteration 1; the jointplots in the section 4.1.5 and the correlation coefficients in the section 4.1.6, show a clear but weak relationship between air quality parameters <code>NO2, O3, humidity and temperature</code> with the Covid-19 metric <code>daily_growth_rt_percent</code> ( (TotalCases today/TotalCases yesterday) * 100 ). However, this result needs to be validated with more data from other countries.</p>
+<h4 id="4.1.7-Conclusion-of-Iteration-1">4.1.7 Conclusion of Iteration 1<a class="anchor-link" href="#4.1.7-Conclusion-of-Iteration-1">&#182;</a></h4><p>To summarise, in iteration 1; the jointplots in the section 4.1.5 and the correlation coefficients in the section 4.1.6, show a clear but weak relationship between air quality parameters <code>NO2, O3, humidity and temperature</code> with the Covid-19 metric <code>daily_growth_rt_percent</code> ( (TotalCases today/TotalCases yesterday) * 100 ). However, this result needs to be validated with more data from other countries.</p>
 <p>The multivariate regressors produced a very low score (Coefficient of Determination). Therefore, in the second iteration, we will only focus on the univariate analysis, but with a different joining criteria between air quality and Covid-19 datasets.</p>
 <h3 id="4.2-Iteration-2">4.2 Iteration 2<a class="anchor-link" href="#4.2-Iteration-2">&#182;</a></h3><p>In iteration 2, we continue the investigation on the same Covid-19 metric <code>daily_growth_rt_percent</code>. However, three new air quality parameters <code>SO2</code>, <code>merged_wind_speed</code> and <code>merged_wind_gust</code> have been added in the combined dataset.</p>
 <h4 id="4.2.1-Join-air-quality-and-Covid-19-datasets-with-7-days-lag">4.2.1 Join air quality and Covid-19 datasets with 7 days lag<a class="anchor-link" href="#4.2.1-Join-air-quality-and-Covid-19-datasets-with-7-days-lag">&#182;</a></h4><p>The air quality data and Covid-19 data have been joined based on attributes <code>City</code> and <code>Date</code> in the first iteration. However, the impact of poor air quality (e.g. high NO2 concentration, high humidity) may be reflected in the total number of infected cases after several days.</p>
@@ -15680,7 +15680,7 @@ Shape of the dataset after removing blank values and outliers = (878, 17)
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="4.2.3-Correlation-coeffient-(r)-and-model-fitting">4.2.3 Correlation coeffient-(r) and model fitting<a class="anchor-link" href="#4.2.3-Correlation-coeffient-(r)-and-model-fitting">&#182;</a></h4><p>In this section, we will repeat the same steps performed in the section 4.1.6 of iteration 1, but with additional air quality parameters, new join criteria and with a slightly less number of records.</p>
+<h4 id="4.2.3-Correlation-coefficient-and-model-fitting">4.2.3 Correlation coefficient and model fitting<a class="anchor-link" href="#4.2.3-Correlation-coefficient-and-model-fitting">&#182;</a></h4><p>In this section, we will repeat the same steps performed in the section 4.1.6 of iteration 1, but with additional air quality parameters, new join criteria and with a slightly less number of records.</p>
 <ul>
 <li><strong>Step 1 -</strong>   Find out Pearson's correlation coefficients between air quality parameters (<code>'so2', 'no2', 'o3', 'pm10', 'pm25', 'humidity' , 'temperature' ,'pressure', 'merged_wind_gust','merged_wind_speed'</code> ) and <code>daily_growth_rt_percent</code>. </li>
 </ul>
@@ -15815,7 +15815,7 @@ Mean absolute error: 5.61
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="4.2.4-Correlation-between-all-air-quality-parameters-(X)-and-Covid-19-metric">4.2.4 Correlation between all air quality parameters (X) and Covid-19 metric<a class="anchor-link" href="#4.2.4-Correlation-between-all-air-quality-parameters-(X)-and-Covid-19-metric">&#182;</a></h4><p>In this section, we have repeated the steps of the section 4.1.5 of iteration 1, i.e. explore the relationship of all the air quality parameter with Covid-19 metric using jointplots.</p>
+<h4 id="4.2.4-Correlation-between-all-air-quality-parameters-and-Covid-19-metric">4.2.4 Correlation between all air quality parameters and Covid-19 metric<a class="anchor-link" href="#4.2.4-Correlation-between-all-air-quality-parameters-and-Covid-19-metric">&#182;</a></h4><p>In this section, we have repeated the steps of the section 4.1.5 of iteration 1, i.e. explore the relationship of all the air quality parameter with Covid-19 metric using jointplots.</p>
 <p>The set of diagrams has been split into three groups for display purposes only.</p>
 <p><strong>A heatmap with all correlation coefficients has also been plotted at the end of this section.</strong></p>
 
@@ -16102,7 +16102,7 @@ Mean absolute error: 5.61
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="4.2.5-Conclusion-of-Iteration-2">4.2.5 Conclusion of Iteration 2<a class="anchor-link" href="#4.2.5-Conclusion-of-Iteration-2">&#182;</a></h4><p>The results of iteration 2 are marginally different from iteration 1 - the values of correlation coefficient (r) and model score are slightly higher than iteration 1 (except for <code>no2</code>). However, the values of <code>r</code> still falls in the weak correlation range.</p>
+<h4 id="4.2.5-Conclusion-of-Iteration-2">4.2.5 Conclusion of Iteration 2<a class="anchor-link" href="#4.2.5-Conclusion-of-Iteration-2">&#182;</a></h4><p>The results of iteration 2 are marginally different from iteration 1 - the values of correlation coefficient (r) and model score are slightly higher than iteration 1 (except for <code>no2</code>). However, the values of <code>r</code> still fall in the weak correlation range.</p>
 <p><strong>Iteration 1</strong></p>
 <p><em>Correlation coefficient between air quality parameters and Covid-19 <code>daily_growth_rt_percent</code></em></p>
 <ul>
@@ -16132,6 +16132,8 @@ Mean absolute error: 5.61
 <li>Multivariate linear model: Coefficient of Determination (R^2): 0.36</li>
 <li>Multivariate Random Forest LinearRegressor:Coefficient of Determination (R^2): 0.34</li>
 </ul>
+<p>Iteration 2 can be repeated for other time lags (5,9,11,14...days) as well, this may allow us to understand the full impact of short-term variation of air quality to Covid-19 positive cases.</p>
+<p>Please note the impact of pre-lockdown mobility has not been taken into consideration in this study. People may catch the virus from a city with poor air quality and then they immediately move to a less polluted city where it was tested and detected.</p>
 
 </div>
 </div>
@@ -16139,7 +16141,7 @@ Mean absolute error: 5.61
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="5.0-Summerise-the-key-findings">5.0 Summerise the key findings<a class="anchor-link" href="#5.0-Summerise-the-key-findings">&#182;</a></h2><p>To summarise, both the iterations 1 and 2 support the same observations. The data analysis shows the Covid-19 metric <code>daily growth rate percentage</code> derived from the total number of positive cases, has a weak correlation with the following air quality factors -</p>
+<h2 id="5.0-Summarise-the-key-findings">5.0 Summarise the key findings<a class="anchor-link" href="#5.0-Summarise-the-key-findings">&#182;</a></h2><p>To summarise, both the iterations 1 and 2 support the same observations. The data analysis shows the Covid-19 metric <code>daily growth rate percentage</code> derived from the total number of positive cases, has a weak correlation with the following air quality factors -</p>
 <ol>
 <li>NO2           - daily growth rate increases with the increase of NO2 in the air ( r=0.2)</li>
 <li>O3            - daily growth rate decreases with the increase of O3 in the air (r=-0.27)</li>
@@ -16153,6 +16155,7 @@ Mean absolute error: 5.61
 <li>more datasets from other cities and regions from different counties, including suburbs and rural areas. </li>
 <li>more COVID-19 metrics such as number of deaths, severity of infections etc.</li>
 </ol>
+<p>This study can be extended to include the impact of mobility and time lag sensitivity.</p>
 <p>As the infection growth rate depends on temperature, humidity, wind speed and NO2, the social distancing measures must be strictly followed even in the cooler days, humid/windy weather conditions and where the concentration of NO2 is high in the air.</p>
 
 <pre><code>                               ----- End of the document ------</code></pre>
